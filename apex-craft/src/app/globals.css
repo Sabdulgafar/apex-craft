@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -39,4 +39,46 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+
+
+/* Navbar tweaks */
+
+body a{
+  color: white !important;
+}
+nav{
+  text-transform: uppercase;
+  position: fixed !important;
+  width: 100vw;
+}
+
+@media screen and (min-width: 720px){
+  .navbar-brand{
+    padding-right: 3rem;
+  }
+  .nav-link:hover{
+    display: block;
+    background-color: white;
+    color: rgb(63, 63, 63) !important;
+    border-radius: 2px;
+  }
+}
+
+/* Banner Tweaks */
+.banner{
+  padding: 5rem 0rem 0rem 0rem;
+  height: 100vh;
+  background-color: rgba(121, 121, 121, 0.137);
+}
+
+.right{
+  padding: 6rem 2.5rem !important;
+}
+.right button{
+  margin-right: 2rem;
+  padding: 0.5rem 2rem;
+}
+.banner .right h2, .banner .right p{
+  margin-bottom: 2.75rem;
 }
