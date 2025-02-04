@@ -10,6 +10,7 @@ nav{
   text-transform: uppercase;
   position: fixed !important;
   width: 100vw;
+  z-index: 1;
 }
 @media screen and (min-width: 720px){
   .navbar-brand{
@@ -37,6 +38,12 @@ nav{
 .banner .right h2, .banner .right p{
   margin-bottom: 2.75rem;
 }
+.corporate-img{
+  display: block;
+  width: auto;
+  margin: auto;
+  border-radius: 50%;
+}
 
 /* blog section */
 .blog-section{
@@ -56,4 +63,10 @@ nav{
   color: rgb(59, 59, 59);
   border: solid thin rgb(59, 59, 59);
   border-radius: 5px;
+}
+.More-post{
+  display: block !important;
+  width: auto !important;
+  margin: auto !important;
+  margin-top: 2rem !important;
 }

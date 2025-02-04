@@ -1,6 +1,6 @@
 const BlogSection = ()=>{
     return(
-        <div className="container blog-section">
+        <div className="container blog-section" id="BlogSection">
             <div className="row">
                 <div className="col">
                     <div class="card">
@@ -65,6 +65,8 @@ const BlogSection = ()=>{
                     </div>
                 </div>
             </div>
+
+            <a className="btn btn-dark More-post" href="/blog">More Post</a>
         </div>
     )
 }

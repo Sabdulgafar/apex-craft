@@ -1,9 +1,11 @@
+import Left from '../components/imgs/Left.png';
+
 const Banner = ()=>{
     return(
         <div className="container-fluid banner">
             <div className="row">
                 <div className="col">
-                    <h1>Left</h1>
+                    <img src={Left} alt="corporate" className="corporate-img"></img>
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 right">
                     <h1>HERE AT <span className="apexcraft">APEXCRAFT</span></h1>
