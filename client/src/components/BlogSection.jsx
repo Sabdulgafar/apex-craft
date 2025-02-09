@@ -1,6 +1,7 @@
 const BlogSection = ()=>{
     return(
         <div className="container blog-section" id="BlogSection">
+            <h2 className="section-titles">Blog Posts</h2>
             <div className="row">
                 <div className="col">
                     <div class="card">

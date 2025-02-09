@@ -1,8 +1,19 @@
+@font-face{
+  font-family: 'Raleway';
+  src: url('/src/components/font/Raleway-Regular.ttf') format('truetype');
+}
+body{
+  font-family: 'Raleway' !important;
+}
+
 body a{
   color: white;
 }
 body a:hover{
   color: rgb(180, 180, 180);
+}
+.section-titles{
+  text-align: center !important;
 }
 
 /* Navigation bar tweak */
@@ -69,4 +80,27 @@ nav{
   width: auto !important;
   margin: auto !important;
   margin-top: 2rem !important;
+}
+
+/* What we do tweaks */
+.whatwedo{
+  margin: 2rem 0rem;
+}
+.avatar{
+  display: block;
+  margin: auto;
+  width: auto;
+}
+.textside{
+  margin: 4rem 0rem;
+}
+.textside p, .textside li{
+  width: 420px !important;
+}
+.textside ul{
+  margin-top: 1rem;
+}
+.textside ul li{
+  list-style-image: url('/src/components/imgs/Verified.png');
+  padding: 0.25rem 0.25rem;
 }

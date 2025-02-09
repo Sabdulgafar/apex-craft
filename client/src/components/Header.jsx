@@ -1,7 +1,6 @@
 import '../App.css';
 import '../Bootstrap.min.css';
 
-
 const Header=()=>{
     return(
         <header>
@@ -20,7 +19,7 @@ const Header=()=>{
                                 <a className="nav-link" href="#BlogSection">Blog</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">About Us</a>
+                                <a className="nav-link" href="/AboutUs">About Us</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="/">Contact us</a>

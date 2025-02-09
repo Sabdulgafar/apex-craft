@@ -1,7 +1,7 @@
 const AboutUs = ()=>{
     return(
         <div>
-            {/* Content */}
+            <h2>Hello world</h2>
         </div>
     )
 }
