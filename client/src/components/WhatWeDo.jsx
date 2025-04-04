@@ -12,14 +12,18 @@ const WhatWeDo = () =>{
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 textside">
                     <h2>Here at <span className='apexcraft'>ApexCraft</span></h2>
-                    <p>we specialize in crafting innovative solutions that drive business growth and improvement. Our team of experts work collaboratively to deliver exceptional results across various industries</p>
+                    <p>Our strength lies in understanding our client’s unique training needs and organisational contexts, enabling us to create impactful learning experiences that drive growth and achieve their objectives.</p>
                     
                     <cite>Our core services includes;</cite>
                     <ul>
-                        <li>Strategic Planning: We help businesses define and achieve their goals through tailored strategies.</li>
-                        <li>Operational Efficiency: Our team optimizes processes to enhance productivity and reduce costs.</li>
-                        <li>Digital Transformation: We leverage cutting-edge technology to drive business forward.</li>
+                        <li>Innovative Methods: We help our clients define and achieve their goals using innovative methods</li>
+                        <li>Hands-on Experience: Our team relies on hands-on experience to enhance productivity and efficiency.</li>
+                        <li>Bespoke: We define tailored support and service deliver for clients improving goal achievement</li>
                     </ul>
+                    
+                    <a href='/' className="btn btn-dark">Contact Us</a>
+                    <span className='spacer'></span>
+                    <a href="/" className="btn btn-outline-dark">Find Out More</a>
                 </div>
             </div>
         </div>

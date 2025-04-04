@@ -1,9 +1,9 @@
 import Header from '../components/Header';
 import Banner from '../components/Banner';
 import BlogSection from '../components/BlogSection';
-import AboutUs from '../components/About';
 import '../Bootstrap.min.css';
 import WhatWeDo from '../components/WhatWeDo';
+import Footer from '../components/Footer';
 
 const HomePage = ()=>{
     return(
@@ -12,7 +12,7 @@ const HomePage = ()=>{
             <Banner />
             <WhatWeDo />
             <BlogSection />
-            <AboutUs />
+            <Footer/>
         </body>
     )
 }

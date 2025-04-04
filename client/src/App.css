@@ -2,6 +2,10 @@
   font-family: 'Raleway';
   src: url('/src/components/font/Raleway-Regular.ttf') format('truetype');
 }
+.spacer{
+  content: "";
+  padding: 0.5rem;
+}
 body{
   font-family: 'Raleway' !important;
 }
@@ -35,30 +39,97 @@ nav{
   height: 100vh !important;
   background-color: rgba(121, 121, 121, 0.137);
 }
-.right{
-  padding: 10rem 2.5rem !important;
+
+@media screen and (min-width: 720px){ /*Desktop view*/
+  .right{
+    padding: 10rem 2.5rem !important;
+  }
+  .apexcraft{
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .right button{
+    margin-right: 2rem;
+    padding: 0.5rem 2rem;
+  }
+  .banner .right h2, .banner .right p{
+    margin-bottom: 2.75rem;
+  }  
+  .corporate-img{
+    display: block;
+    width: auto;
+    margin: auto;
+    border-radius: 50%;
+  }
+  /* What we do tweaks */
+  .whatwedo{
+    margin: 2rem 0rem;
+  }
+  .avatar{
+    display: block;
+    margin: auto;
+    width: auto;
+  }
+  .textside{
+    margin: 4rem 0rem;
+  }
+  .textside p, .textside li{
+    width: 420px !important;
+  }
+  .textside ul{
+    margin-top: 1rem;
+  }
+  .textside ul li{
+    list-style-image: url('/src/components/imgs/Verified.png');
+    padding: 0.25rem 0.25rem;
+  }
+  .space{
+    margin: 0rem 0.75rem;
+  }
 }
-.apexcraft{
-  text-decoration: underline;
-  font-weight: bold;
+@media screen and (max-width: 720px){ /*mobile view*/
+  .right{
+    padding: 1rem 1.75rem !important;
+  }
+  .right p{
+    text-align: justify;
+  }
+  .corporate-img{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    display: block;
+    margin-top: -2rem;
+  }
+
+  /* What we do */
+  .avatar{
+    display: block;
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-bottom: 1.5rem;
+  }  
+  .textside{
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+  .textside p, .textside cite, .textside li{
+    text-align: justify;
+  }
+  .textside ul li{
+    list-style-image: url('/src/components/imgs/Verified.png');
+    padding: 0.25rem 0.25rem;
+  }
 }
-.right button{
-  margin-right: 2rem;
-  padding: 0.5rem 2rem;
-}
-.banner .right h2, .banner .right p{
-  margin-bottom: 2.75rem;
-}
-.corporate-img{
-  display: block;
-  width: auto;
-  margin: auto;
-  border-radius: 50%;
-}
+
 
 /* blog section */
 .blog-section{
   margin: 3rem 0rem;
+}
+.blog-section a{
+  color: white !important;
 }
 .card{
   width: 18rem !important;
@@ -82,25 +153,52 @@ nav{
   margin-top: 2rem !important;
 }
 
-/* What we do tweaks */
-.whatwedo{
-  margin: 2rem 0rem;
+
+/* footer section */
+.footer-section{
+  background-color: rgba(36, 36, 36, 0.808) !important;
+  color: white !important;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
-.avatar{
-  display: block;
-  margin: auto;
-  width: auto;
+
+.footer-section ul li{
+  list-style: none;
 }
-.textside{
-  margin: 4rem 0rem;
+
+/* About us page */
+.aboutus{
+  padding-top: 6rem;
+  padding-right: 3.75rem !important;
 }
-.textside p, .textside li{
-  width: 420px !important;
+
+.ourcourses{
+  margin-top: 3rem;
 }
-.textside ul{
-  margin-top: 1rem;
+.ourcourses h2{
+  padding: 0.5rem 1.75rem;
+  background-color: rgb(53, 53, 53);
+  color: white;
 }
-.textside ul li{
-  list-style-image: url('/src/components/imgs/Verified.png');
-  padding: 0.25rem 0.25rem;
+.ourcourses-content{
+  padding: 0rem 3rem;
 }
+
+.ourcourses-content a{
+  color: white !important;
+}
+
+.aboutus p{
+  font-size: larger;
+  letter-spacing: 2px;
+}
+.aboutUsContent p{
+  text-align: justify;
+  margin-bottom: 4rem;
+}
+
+.the-card{
+  width: 18rem;
+}
+
+/* Mobile view tweaks */
